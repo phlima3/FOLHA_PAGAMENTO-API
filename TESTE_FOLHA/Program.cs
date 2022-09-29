@@ -9,15 +9,36 @@ namespace TESTE_FOLHA
 {
     internal class Program
     {
+
+        static List<ICalculoSalario> Empregados;
         static void Main(string[] args)
         {
-            ICalculoSalario emp = new Funcionario()
+
+            Empregados = new List<ICalculoSalario>();
+            Empregados.Add(new Funcionario()
             {
                 Cod = 1,
                 Nome = "JOÃO DA SILVA",
                 Horas = 160
-            };
-            emp.Holerite(18);
+            });
+
+            Empregados.Add(new Funcionario()
+            {
+                Cod = 2,
+                Nome = "PAULO MARCIO",
+                Horas = 200
+            });
+
+
+            Random faixa = new Random();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            foreach (ICalculoSalario emp in Empregados)
+            {
+                emp.Holerite(faixa.Next(18,35));
+                Console.WriteLine("\n");
+            }
+            
             Console.ReadKey();
 
 

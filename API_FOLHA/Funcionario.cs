@@ -38,6 +38,7 @@ namespace API_FOLHA
         public void Holerite(double salHora)
         {
              double sb = Calcular(18);
+            Console.WriteLine("FUNCIONARIO: {0}", Nome);
             Console.WriteLine("Salario Bruto:{0:C2}", sb);
             double desc = Desconto(sb);
             Console.WriteLine("Desconto:{0:C2}", desc);
