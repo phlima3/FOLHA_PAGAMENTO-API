@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_FOLHA", "API_FOLHA\API_FOLHA.csproj", "{31F9A702-6563-45AE-8810-CCA30F4562D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TESTE_FOLHA", "TESTE_FOLHA\TESTE_FOLHA.csproj", "{9941DD94-018D-48F8-BA8F-8DCAC2C2C5DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{31F9A702-6563-45AE-8810-CCA30F4562D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31F9A702-6563-45AE-8810-CCA30F4562D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31F9A702-6563-45AE-8810-CCA30F4562D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9941DD94-018D-48F8-BA8F-8DCAC2C2C5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9941DD94-018D-48F8-BA8F-8DCAC2C2C5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9941DD94-018D-48F8-BA8F-8DCAC2C2C5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9941DD94-018D-48F8-BA8F-8DCAC2C2C5DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
