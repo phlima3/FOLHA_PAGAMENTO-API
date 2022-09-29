@@ -26,7 +26,15 @@ namespace TESTE_FOLHA
             {
                 Cod = 2,
                 Nome = "PAULO MARCIO",
-                Horas = 200
+                Horas = 160
+            });
+
+            Empregados.Add(new Estagiario()
+            {
+                Cod = 3,
+                Nome = "RENATO ARAGÃO",
+                Horas = 160,
+                Vale = 80,
             });
 
 
