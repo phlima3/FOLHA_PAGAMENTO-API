@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_FOLHA", "API_FOLHA\API_FOLHA.csproj", "{31F9A702-6563-45AE-8810-CCA30F4562D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31F9A702-6563-45AE-8810-CCA30F4562D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F9A702-6563-45AE-8810-CCA30F4562D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F9A702-6563-45AE-8810-CCA30F4562D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F9A702-6563-45AE-8810-CCA30F4562D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C649DCF-64C0-4B71-BBF4-5CD782615E9D}
+	EndGlobalSection
+EndGlobal
